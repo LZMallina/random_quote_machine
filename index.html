@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta charset="UTF-8">
+  <meta name="description" content="Freecodecamp challenge">
+  <meta name="keywords" content="HTML, CSS, Bootstrap, jQuery">
+  <meta name="author" content="Lili Zhao Mallina">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freecodecamp random quote machine challenge build with Bootstrap and jQuery</title>
+<!--fontawesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--bootstrap stylesheet link and jQuery link-->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src ="randomquoteMachine.js"></script>
+
+<!--CSS Linke-->
+<link rel="stylesheet" href="quoteMachine.css">
+<style></style>
+</header>
+<body>
+<div class="container-fluid">
+    <div id="quote-box" class="position">
+<!---container just for quotes-->
+        <div id="quote-container">
+            <div id="text">For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.</div>
+            <div id ="author">John 3:16 </div>
+        </div><!--end div for "quote-container-->
+          <button id="new-quote">New Quote</button>
+<!--container for icons and button-->
+        <div id="icons">
+            <a id="tweet-quote" target ="_blank" title="post this one twitter" href="https://twitter.com/login?lang=en-gb"><i class="fa fa-twitter" style="font-size:2.5vw"></i></a>
+        
+            <a id="tumbler" title="post this on tumbler" href="https://www.tumblr.com/login"><i class="fa fa-tumblr-square" style ="font-size:2.5vw"></i></a>
+    </div><!--end dive for icons and button container-->
+    <br>
+    <div> by Lili Zhao Mallina</div>
+    </div><!--end div for quote-box-->
+
+</div><!--end div for container fluid-->
+</body>
+</html>
